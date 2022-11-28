@@ -1,15 +1,3 @@
 KEYMAPOPTS="us us"
 TIMEZONEOPTS="Europe/Stockholm"
-APKREPOSOPTS="-r"
-DISKOPTS="-m sys"
-SSHDOPTS=openssh
 ROOTSSHKEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEMTOLTo6ElOnDh2T0DrzpKhOR7ao00Ol3/fgr+VS1oq github@tell.nu"
-NTPOPTS=openntpd
-INTERFACESOPTS="auto lo
-iface lo inet loopback
-
-auto eth0
-iface eth0 inet dhcp
-    hostname alpine-test
-"
-PROXYOPTS=none
