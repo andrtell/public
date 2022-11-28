@@ -1,0 +1,5 @@
+KEYMAPOPTS="us us"
+TIMEZONEOPTS="-z Europe/Stockholm"
+SSHDOPTS="-c openssh"
+APKREPOSOPTS="-r"
+DISKOPTS="-m sys"
